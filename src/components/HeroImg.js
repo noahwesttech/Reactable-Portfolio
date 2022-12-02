@@ -14,7 +14,7 @@ const heroImg = () => {
         <p>WELCOME TO MY PORTFOLIO</p>
         <h1>Web Developer</h1>
         <div>
-            <Link to="/projects" className="btn">My Projects</Link>
+            <Link to="/project" className="btn">My Projects</Link>
             <Link to="/contact" className="btn-light">Contact Me</Link>
         </div>
     </div>
