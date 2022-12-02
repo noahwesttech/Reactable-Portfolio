@@ -33,8 +33,14 @@ ul{
 }
 
 .btn-light{
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
   background: transparent;
-  color:rgba(255, 255, 255, 0.76);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .btn:hover{
