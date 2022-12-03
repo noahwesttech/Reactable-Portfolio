@@ -30,7 +30,7 @@
 .hero .content{
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 35%;
+    top: 50%;
     left: 50%;
     text-align: center;
 }
@@ -44,6 +44,15 @@
     font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.hero .img{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 .content .btn{

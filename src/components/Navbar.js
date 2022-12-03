@@ -12,12 +12,12 @@ const Navbar = () => {
 
   return (
     <div className="header">
-        <Link to="/">
+        <Link to="/about">
             <h1>Portfolio</h1>
         </Link>
         <ul className={ click ? "nav-menu active" : "nav-menu" }>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/about">Home</Link>
             </li>
             <li>
                 <Link to="/project">Project</Link>
@@ -27,6 +27,9 @@ const Navbar = () => {
             </li>
             <li>
                 <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+                <Link to="/resume">Resume</Link>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick} >

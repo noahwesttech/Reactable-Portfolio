@@ -1,19 +1,18 @@
 import "./WorkCardStyles.css"
-import React from 'react'
-import pro1 from "../assets/project1.png"
-import pro2 from "../assets/project2.png"
-import { NavLink } from "react-router-dom"
 
-const WorkCard = () => {
+import React from 'react'
+import { ExternalLink } from 'react-external-link'
+
+const WorkCard = (props) => {
   return (
     <div className="project-card">
-    <img src={pro1} alt="project 1" />
-    <h2 className="project-title">Dose of Dopamine</h2>
+    <img src={props.imgsrc} alt="project 1" />
+    <h2 className="project-title">{props.title}</h2>
     <div className="pro-details">
-        <p>A website where you can vote for your favorite of 2 pets and see a record of all your favorites!</p>
+        <p>{props.text}</p>
         <div className="pro-btns">
-            <NavLink to="url.com" className="btn">Website</NavLink>
-            <NavLink to="url.com" className="btn">Github</NavLink>
+            <ExternalLink href="{props.website}" className="btn">Website</ExternalLink>
+            <ExternalLink to="{props.github}" className="btn">Github</ExternalLink>
         </div>
     </div>
 </div>

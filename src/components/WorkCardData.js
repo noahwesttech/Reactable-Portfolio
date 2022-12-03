@@ -25,3 +25,5 @@ const ProjectCardData = [
     //     github: "https://github.com/niralikap/Fashion-Fanatics",
     // }
 ]
+
+export default ProjectCardData
