@@ -17,13 +17,13 @@ const Navbar = () => {
         </Link>
         <ul className={ click ? "nav-menu active" : "nav-menu" }>
             <li>
-                <Link to="/about">Home</Link>
+                <Link to="/">Home</Link>
             </li>
             <li>
                 <Link to="/project">Project</Link>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <Link to="/">About</Link>
             </li>
             <li>
                 <Link to="/contact">Contact</Link>
