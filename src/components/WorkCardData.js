@@ -1,6 +1,6 @@
 import pro1 from "../assets/project1.png"
 import pro2 from "../assets/project2.png"
-// import pro3 from "../assets/project3.png"
+import pro3 from "../assets/project3.jpg"
 
 const ProjectCardData = [
     {
@@ -17,13 +17,13 @@ const ProjectCardData = [
         website: "https://noahwesttech.github.io/We-Deserve-Arrays-Project-1/",
         github: "https://github.com/noahwesttech/Group-Event-Planner",
     },
-    // {
-    //     imgsrc: pro3,
-    //     title: "FashionFanatics",
-    //     text: "An E-Commerce application built for browsing and purchasing the latest high-end accessories!",
-    //     website: "https://noahwesttech.github.io/We-Deserve-Arrays-Project-1/",
-    //     github: "https://github.com/niralikap/Fashion-Fanatics",
-    // }
+    {
+        imgsrc: pro3,
+        title: "FashionFanatics",
+        text: "An E-Commerce application built for browsing and purchasing the latest high-end accessories!",
+        website: "https://noahwesttech.github.io/We-Deserve-Arrays-Project-1/",
+        github: "https://github.com/niralikap/Fashion-Fanatics",
+    }
 ]
 
 export default ProjectCardData

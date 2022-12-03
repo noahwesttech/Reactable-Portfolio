@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div>
     <Navbar />
-    <HeroImg2 heading="RESUME" text="Please Find a Copy of My Resume Here"/>
+    <HeroImg2 heading="RESUME" text="Please Find a Copy of My Resume Below"/>
     <ResumeText />
     <Footer />
     </div>
