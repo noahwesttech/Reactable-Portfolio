@@ -8,7 +8,8 @@
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-gap: 40px;
 }
 
